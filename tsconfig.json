@@ -21,10 +21,10 @@
         "src/dom.ts",
         "src/program/config.ts",
         "src/program/core.ts",
-        "src/program/getData.ts",
-        "src/program/analysis.ts",
-        "src/program/reconstruction.ts",
-        "src/_index.ts",
+        "src/program/2.divided/getData.ts",
+        "src/program/3.differentColors/analysis.ts",
+        "src/program/3.differentColors/reconstruction.ts",
+        "src/program/_index.ts",
     ],
     "exclude": [
         "node_modules"
