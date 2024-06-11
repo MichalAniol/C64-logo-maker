@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="pl-PL"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' 'unsafe-inline' ws://localhost:* http://localhost:*; media-src 'self' 'unsafe-inline' blob:;">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>logo maker</title>
+        
+        
+    <link rel="stylesheet" type="text/css" href="./index.css"></head>
+    <body>
+        <div class="section">
+            <img src="assets/dzialo040324.png" id="origin-img">
+            <div>
+    <div class="title">origin image</div>
+    <div class="text-line">all origin bytes:<span class="value">9001 B</span></div>
+    <div class="line"></div>
+    <div class="text-line">background color:<span class="value">1 B</span></div>
+    <div class="text-line">colors:<span class="value">1000 B</span>(40 * 25)</div>
+    <div class="text-line">pixels:<span class="value">8000 B</span>(40 * 25 * 8)</div>
+</div>
+        </div>
+
+        <div class="section">
+    <canvas id="canvas"></canvas>
+    <div>
+        <div class="title">image divided into</div>
+        <div class="title">the same chars</div>
+        <div class="line"></div>
+        <div class="text-line">used colors:<span class="value" id="used-colors">0</span></div>
+        <div class="text-line">used chars:<span class="value" id="chars">0</span></div>
+        <div class="text-line">bytes after compression:<span class="value" id="bytes-compressed">0</span></div>
+        <div class="text-line">percentage of compression:<span class="value" id="percentage-of-compression">0</span></div>
+    </div>
+</div>
+
+        <div class="section">
+    <canvas id="canvas-result"></canvas>
+    <div>
+        <div class="title">the same chars</div>
+        <div class="title">with different colors</div>
+        <div class="line"></div>
+    </div>
+</div>
+
+        <script type="module" src="./index.js"></script>
+    
+</body></html>

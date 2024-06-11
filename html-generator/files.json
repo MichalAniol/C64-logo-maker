@@ -1,0 +1,23 @@
+{
+    "watch": [
+        "__interface/*.html",
+        "__interface/chat/*.html",
+        "__interface/chat/info/*.html",
+        "__interface/chat/chat/*.html"
+    ],
+    "htmlList": [
+        "chat\\_index.html",
+        "css\\global.css",
+        "css\\index.css",
+
+        "chat\\chatOBS\\chatOBS.html",
+        "chat\\chatOBS\\chatOBS.css",
+
+        "chat\\chatStream\\chatStream.html",
+
+        "chat\\info\\info.html",
+
+        "chat\\settings\\settings.html",
+        "chat\\settings\\settings.css"
+    ]
+}
